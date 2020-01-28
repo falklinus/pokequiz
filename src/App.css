@@ -1,38 +1,41 @@
+@font-face {
+  font-family: 'PokeFontSolid';
+  src: local('PokeFontSolid'), url(./fonts/PokemonSolid.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'PokeFontHollow';
+  src: local('PokeFontHollow'), url(./fonts/PokemonHollow.ttf) format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(60, 60, 60);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.App-title {
+  font-family: PokeFontSolid;
+  font-size: 50px;
+  line-height: 60px;
+  color: rgb(240, 240, 240);
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 768px) {
+  .App {
+    background-color: rgb(50, 50, 50);
   }
 }
