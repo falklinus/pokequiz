@@ -1,0 +1,21 @@
+.Practise-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  transform: translate(-50%, -50%);
+}
+
+.col {
+  width: calc(100% * (1 / 5));
+  padding: 10px;
+}
+
+.page-buttons {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}

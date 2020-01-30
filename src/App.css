@@ -17,21 +17,7 @@
 .App {
   font-family: 'Poppins', sans-serif;
   background-color: rgb(60, 60, 60);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-}
-
-.App-title {
-  font-family: PokeFontSolid;
-  font-size: 50px;
-  line-height: 60px;
-  color: rgb(240, 240, 240);
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
+  min-height: 100vh;
 }
 
 @media only screen and (max-width: 768px) {

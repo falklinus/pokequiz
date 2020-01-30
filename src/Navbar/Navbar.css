@@ -1,0 +1,32 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  /*justify-content: space-around;*/
+  align-items: center;
+  width: 100vw;
+}
+
+nav ul {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-logo {
+  font-family: PokeFontSolid;
+  font-size: 50px;
+  line-height: 60px;
+  color: rgb(240, 240, 240);
+  padding: 10px;
+  margin-left: 100px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
